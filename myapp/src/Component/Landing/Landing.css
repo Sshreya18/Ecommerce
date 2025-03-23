@@ -1,0 +1,53 @@
+.landing{
+    height:130vh;
+    background: linear-gradient(180deg,#f07272,#e1ffea22 60%);
+    display: flex;
+}
+.landing-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.landing-left h2{
+    margin-left: 25px;
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+.landing-left p{
+    color: #171717;
+    font-size: 100px;
+    font-weight: 600;
+}
+.hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hand-icon img{
+    width:105px;
+}
+.land-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 80px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.landing-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
